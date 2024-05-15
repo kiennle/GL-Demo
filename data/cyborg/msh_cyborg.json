@@ -1,0 +1,5 @@
+{
+	"model_path": "cyborg.obj",
+	"model_scale": 0.7,
+	"materials": ["mat_cyborg.json"]
+}

@@ -1,0 +1,4 @@
+{
+	"shader": "shared/shdr_standard.json",
+	"albedo_map": "palm_texture.tga"
+}

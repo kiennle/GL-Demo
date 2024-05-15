@@ -1,0 +1,35 @@
+{
+	"vertex_shader": "mesh.vert",
+	"fragment_shader": "mesh.frag",
+	"raster_state": {
+		"cull_mode": "off",
+		"depth_clip": true,
+		"offset_factor": 0,
+		"offset_units": 0,
+		"conservative_raster": false
+	},
+	"depth_stencil_state": {
+		"depth_enable": true,
+		"depth_write": true,
+		"depth_compare_func": "less"
+	},
+	"blend_state": {
+		"alpha_to_coverage": true,
+		"independent_blend": false,
+		"blend_states": [
+			{
+				"blend_enable": false,
+				"src_color_factor": "one",
+				"dst_color_factor": "zero",
+				"color_blend_op": "add",
+				"src_alpha_factor": "one",
+				"dst_alpha_factor": "zero",
+				"alpha_blend_op": "add",
+				"write_red": true,
+				"write_green": true,
+				"write_blue": true,
+				"write_alpha": true
+			}
+		]
+	}
+}

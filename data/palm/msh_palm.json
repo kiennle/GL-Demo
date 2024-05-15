@@ -1,0 +1,5 @@
+{
+	"model_path": "palm_lod0.obj",
+	"model_scale": 0.5,
+	"materials": ["mat_palm_trunk.json", "mat_palm_foliage.json"]
+}

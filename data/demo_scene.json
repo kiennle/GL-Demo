@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "type": "camera",
+      "scn_node": {
+        "pos": [-3.86468387,0.555881560,-2.00289440],
+        "rot": [0.0135385767,0.172122225,-0.00236588437,0.984957218],
+        "scl": [1,1,1]
+      },
+      "ortho": false,
+      "aspect": 1.7786,
+      "fov": 1.0472,
+      "znear": 0.1,
+      "zfar": 1000,
+      "ortho_size": 384
+    },
+    {
+      "type": "light",
+      "scn_node": {
+        "pos": [0,0,0],
+        "rot": [0.296571404, 0.457250148, -0.164965898, 0.822031379],
+        "scl": [1,1,1]
+      },
+      "light_type": "directional",
+      "color": [1,1,1],
+      "intensity": 1.4,
+      "range": 1000,
+      "spot_angle": 0.7854
+    },
+    {
+      "type": "mesh_entity",
+      "scn_node": {
+        "pos": [-35,-10.2,0],
+        "rot": [0,0,0,1],
+        "scl": [1,1,1]
+      },
+      "mesh": "terrain/msh_terrain.json"
+    },
+    {
+      "type": "mesh_entity",
+      "scn_node": {
+        "pos": [1.5,-3,5],
+        "rot": [0,0,0,1],
+        "scl": [1,1,1]
+      },
+      "mesh": "palm/msh_palm.json"
+    },
+    {
+      "type": "mesh_entity",
+      "scn_node": {
+        "pos": [0,-2,5],
+        "rot": [0,0,0,1],
+        "scl": [1,1,1]
+      },
+      "mesh": "cyborg/msh_cyborg.json"
+    },
+    {
+      "type": "mesh_entity",
+      "scn_node": {
+        "pos": [2,-1.6,5],
+        "rot": [0,0,0,1],
+        "scl": [1,1,1]
+      },
+      "mesh": "barrel/msh_barrel.json"
+    },
+    {
+      "type": "mesh_entity",
+      "scn_node": {
+        "pos": [-2,-1,5],
+        "rot": [0,0,0,1],
+        "scl": [1,1,1]
+      },
+      "mesh": "backpack/msh_backpack.json"
+    },
+    {
+      "type": "mesh_entity",
+      "scn_node": {
+        "pos": [-4,-1,5],
+        "rot": [0.7071,0,0,0.7071],
+        "scl": [1,1,1]
+      },
+      "mesh": "tank/msh_tank.json"
+    }
+  ]
+}

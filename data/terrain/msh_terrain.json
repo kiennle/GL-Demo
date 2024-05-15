@@ -1,0 +1,5 @@
+{
+	"model_path": "terrain.obj",
+	"model_scale": 1,
+	"materials": ["mat_terrain.json"]
+}

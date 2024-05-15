@@ -1,0 +1,5 @@
+{
+	"model_path": "tank.obj",
+	"model_scale": 0.02,
+	"materials": ["mat_tank.json"]
+}

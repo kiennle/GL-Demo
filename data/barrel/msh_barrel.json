@@ -1,0 +1,5 @@
+{
+	"model_path": "barrel.obj",
+	"model_scale": 0.1,
+	"materials": ["mat_barrel.json"]
+}
